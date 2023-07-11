@@ -60,14 +60,16 @@
 .description {
   font-weight: 300;
   font-size: x-small;
+  /* text-align: center; */
   width: 400px;
 }
 
 /* =====================featured======================= */
 
 .featured__flowers {
+  margin: 5% 10%;
   height: 550px;
-  padding: 0 10%;
+  /* padding: 0 10%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,23 +83,23 @@
   margin: 0 auto;
 }
 
-.featured__list{
+.featured__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.featured__item__name{
+.featured__item__name {
   width: 32%;
 }
-.featured__name{
+.featured__name {
   text-align: center;
   padding: 10px;
 }
-.featured__name a{
+.featured__name a {
   color: black;
 }
 
-.featured__item{
+.featured__item {
   width: 100%;
   height: 350px;
   display: flex;
@@ -106,11 +108,11 @@
   border-top-left-radius: 250px;
   border-top-right-radius: 250px;
 }
-.featured__image{
+.featured__image {
   width: 70%;
   height: 290px;
 }
-.featured__image img{
+.featured__image img {
   width: 100%;
   height: 290px;
 }
@@ -124,4 +126,58 @@
 }
 .item3 {
   background-color: #cff0af;
+}
+
+/* =====================delivery======================= */
+.delivery-container {
+  margin: 1% 10%;
+  background-color: #e9e0e0;
+  padding: 50px 50px;
+  border-radius: 5px;
+}
+.delivery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.diff-delivery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.icon {
+  width: 50px;
+}
+.icon img {
+  width: 100%;
+}
+
+/* =====================delivery======================= */
+.hot-deal {
+  margin: 6% 0;
+  background-color: #fae6ea;
+  padding: 5% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hot-deal-details {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.hot-deal-img{
+  width: 20%;
+}
+.hot-deal-img img {
+  width: 100%;
+}
+.text{
+  text-align: center;
 }
