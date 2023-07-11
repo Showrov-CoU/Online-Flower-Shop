@@ -4,9 +4,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
   scroll-behavior: smooth;
   list-style: none;
   font-family: "Poppins", sans-serif;
+}
+/* =====================navbar======================= */
+.nav-bar {
+  padding: 18px 10%;
+  background-color: #f09eaf;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-size:x-large;
+  font-weight: bold;
+}
+.link {
+  color: white;
+  transition: 0.3s;
+}
+.link:hover{
+  color: #db3859;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 /* =====================banner======================= */
 .banner {
@@ -79,7 +108,7 @@
 .featured__details {
   text-align: center;
 }
-.featured__details h2{
+.featured__details h2 {
   padding-bottom: 10px;
 }
 .featured-desc {
@@ -241,7 +270,7 @@
   align-items: center;
   gap: 10px;
 }
-.container-title p{
+.container-title p {
   text-align: center;
   font-size: small;
 }
@@ -253,7 +282,7 @@ input {
 }
 
 /* =====================footer======================= */
-.footer-container{
+.footer-container {
   background-color: rgb(17, 17, 17);
   color: white;
   padding: 70px 0;
@@ -263,13 +292,13 @@ input {
   align-items: center;
   gap: 20px;
 }
-.footer-desc{
+.footer-desc {
   text-align: center;
 }
-.copy-right{
+.copy-right {
   font-size: small;
   color: rgb(112, 108, 108);
 }
-.text-color{
-  color:#db3859;
+.text-color {
+  color: #db3859;
 }
