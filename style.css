@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
   scroll-behavior: smooth;
   list-style: none;
   font-family: "Poppins", sans-serif;
@@ -26,6 +25,7 @@
 }
 .link {
   color: white;
+  text-decoration: none;
   transition: 0.3s;
 }
 .link:hover{
